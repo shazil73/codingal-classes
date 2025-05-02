@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .best {
+            background-image: url(ello.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+        }
+
+        .good {
+            background: linear-gradient(to right, pink, blue);
+            width: 100%;
+            height: 100vh;
+        }
+
+        .ok{
+            background: linear-gradient(to right, pink, blue);
+        }
+
+        animation {
+            animation: mymove 5s;
+        }
+
+        @keyframes mymove {
+            0% {
+                background-color: red;
+            }
+
+            25% {
+                background-color: yellow;
+            }
+
+            50% {
+                background-color: blue;
+            }
+
+            75% {
+                background-color: green;
+            }
+
+            100% {
+                background-color: red;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="best">
+        <h1>hello</h1>
+    </div>
+    <div class="good">
+        <h1>hello</h1>
+    </div>
+    <div class="ok">
+        <h1>hello</h1>
+    </div>
+</body>
+
+</html>
