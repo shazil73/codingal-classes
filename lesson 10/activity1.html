@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type="text"] {
+            border: 2px solid black;
+            border-radius: 5px;
+            padding: 10px;
+            width: 200px;
+        }
+
+        input[type="email"] {
+            border: 2px solid blue;
+            border-radius: 5px;
+            padding: 10px;
+            width: 200px;
+        }
+        div > p{
+            color: green;
+            font-size: 30px;
+        }
+        h1+p{
+            color: red;
+            font-size: 20px;
+        }
+        p:hover{
+            color: blue;
+            font-size: 30px;
+        }
+        li:nth-child(2){
+            color: rgb(214, 42, 42);
+        }
+        .glass::after{
+            content:" ⭐";
+        }
+        .glas::before{
+            content:" ⭐";
+        }
+         
+        </style>
+</head>
+<body>
+    <input type="text" placeholder="Enter your name">
+    <input type="email" placeholder="Enter your email">
+    <div>
+        <p>hello guys</p>
+    </div>
+    <h1>helloooo g</h1>
+    <p>welcome to my code </p>
+
+    <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+    </ul>
+    <h1 class="glass"> star</h1>
+    <h1 class="glas"> star</h1>
+</body>
+</html>
