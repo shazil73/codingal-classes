@@ -1,5 +1,5 @@
 var shazil = {
-    america: "New York", india: "Delhi", pakistan: "Karachi", d: function (a, b) {
+    america: "New York", india: "Delhi", pakistan: "Lahore", d: function (a, b) {
         return Math.pow(a, b)
     }
 }
@@ -24,7 +24,7 @@ function add(a, b) {
     return a + b;
 }
 function average(a, b) {
-    return add(a ,b) / 2
+    return add(a, b) / 2
 }
 
 console.log(average(10, 20))

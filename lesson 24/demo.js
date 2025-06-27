@@ -1,0 +1,1 @@
+document.getElementsByClassName("good")[0].innerHTML = "hello world"
