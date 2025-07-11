@@ -11,7 +11,7 @@ class Pen {
 
 }
 class Pencil extends Pen {
-    constructor(size, color, type, run,ability) {
+    constructor(size, color, type, run, ability) {
         super(size, color, type, run)
         this.ability = ability
     }
