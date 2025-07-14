@@ -5,8 +5,8 @@ class Pen {
         this.type = type
         this.run = run
     }
-    write() {
-        console.log(this.run)
+    write(){
+        console.log(this.ability)
     }
 
 }
@@ -20,7 +20,7 @@ class Pencil extends Pen {
     }
 }
 
-var mypen = new Pen(10, "blue", "gel", "writing smoothly")
+var mypen = new Pen(10, "blue", "gel", "writing smoothly", "cannot erase")
 var mypencil = new Pencil(5, "yellow", "graphite", "writing smoothly", "can erase")
 console.log(mypen.write())
 console.log(mypencil.abilityToWrite())
