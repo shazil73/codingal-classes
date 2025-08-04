@@ -16,6 +16,6 @@ function getVideo () {
         await getVideo();
         console.log("video is ready");
     }
-
-showVideo();
-console.log("i print first");
+    
+showVideo()
+console.log("i print first")
