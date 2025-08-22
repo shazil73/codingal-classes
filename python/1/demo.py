@@ -1,10 +1,11 @@
-# hello sir 
+# hello guys
+print("Hello, World!")
+print("Hello, Python!")
 
-print("Hello, Sir!")
+a = 10
+b = 20
 
-print(6483)
+print(a + b)
+print(a * b)
 
-a = "This is a string with a newline character"
-print(a)
-
-print(f"Length of the string: {a}")
+print(f'hello {20}')
