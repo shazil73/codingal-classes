@@ -12,6 +12,7 @@ def shazil2 (a, b, c, d):
 ans = shazil2(5, 6, 7, 8)
 print(ans)
 
+
 def hello (n):
     if n == 0:
         return 
